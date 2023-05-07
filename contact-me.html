@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Contact me</title>
+    </head>
+    <body>
+        <h1>My Contact Details</h1>
+        <ul>
+            <li>
+                <strong>Phone number:</strong>
+                <a href="tel:+919612456865">+919612456865</a>
+            </li>
+            <li>
+                <strong>Email:</strong>
+                <a href="mailto:biprajitpaul5555@gmail.com">biprajitpaul5555@gmail.com</a>
+            </li>
+            <li>
+                <strong>Linkedin:</strong>
+                <a href="https://www.linkedin.com/in/biprajit-paul-32945922b/" target="_blank">Profile link</a>
+            </li>
+            <li>
+                <strong>GitHub:</strong>
+                <a href="https://github.com/biprajitpaul5555" target="_blank">Profile link</a>
+            </li>
+        </ul>
+        <hr />
+        <h3>Enter your details</h3>
+        <form action="mailto:biprajitpaul5555@gmail.com" method="post" enctype="text/plain">
+            <div>
+                <label for="name">Name:</label>
+                <input type="text" name="yourName" id="name" placeholder="Enter your name" />
+            </div>
+            <br />
+            <div>
+                <label for="pass">Password:</label>
+                <input type="password" name="yourPassword" id="pass" placeholder="Enter your password" />
+            </div>
+            <br />
+            <div>
+                <label for="dob">DOB:</label>
+                <input type="date" name="yourDOB" id="dob" />
+            </div>
+            <br />
+            <div>
+                <label for="Email">Email:</label>
+                <input type="email" name="yourEmail" id="Email" placeholder="Enter your email id" />
+            </div>
+            <br />
+            <div>
+                <label for="gender">Gender:</label>
+                <input type="radio" name="yourGender" id="gender" value="Male" />
+                Male
+                <input type="radio" name="yourGender" id="gender" value="Female" />
+                Female
+                <input type="radio" name="yourGender" id="gender" value="Others" />
+                Others
+            </div>
+            <br />
+            <div>
+                Hobbies:
+                <input type="checkbox" name="yourHobbies" value="Coding" checked />
+                Coding
+                <input type="checkbox" name="yourHobbies" value="Outdoor Sports" />
+                Outdoor Sports
+                <input type="checkbox" name="yourHobbies" value="Singing" />
+                Singing
+                <input type="checkbox" name="yourHobbies" value="Dancing" />
+                Dancing
+            </div>
+            <br />
+            <div>
+                Attach your photo:
+                <input type="file" name="yourPhoto" />
+            </div>
+            <br />
+            <div>
+                <label for="qual">Qualification:</label>
+                <select name="yourQual" id="qual">
+                    <option value="10th">10th</option>
+                    <option value="12th">12th</option>
+                    <option value="Undergraduate" selected>Undergraduate</option>
+                    <option value="Postgraduate">Postgraduate</option>
+                </select>
+            </div>
+            <br />
+            <div>
+                <label for="link">Linkedin profile link:</label>
+                <input type="url" placeholder="Paste your link here" name="yourLink" id="link" />
+            </div>
+            <br />
+            <div>
+                <label for="cgpa">CGPA:</label>
+                <input type="number" name="yourCgpa" id="cgpa" placeholder="Enter CGPA(floor value)" />
+            </div>
+            <br />
+            <div>
+                <label for="phone">Phone number:</label>
+                <input type="tel" name="yourPhone" placeholder="Enter your number" id="phone" />
+            </div>
+            <br />
+            <div>
+                <label for="address">Address:</label>
+                <br />
+                <textarea
+                    name="yourAddress"
+                    id="address"
+                    placeholder="Enter your address here"
+                    cols="30"
+                    rows="10"></textarea>
+            </div>
+            <br />
+            <div>
+                <label for="satisfaction">How satisfied are you with this site ?:</label>
+                <input type="range" name="yourSatisfaction" id="satisfaction" />
+            </div>
+            <br />
+            <input type="submit" value="Submit now" />
+            <input type="reset" value="Reset now" />
+        </form>
+    </body>
+</html>
